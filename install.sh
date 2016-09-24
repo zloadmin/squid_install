@@ -16,5 +16,6 @@ echo 'Add squid to autoload'
 update-rc.d squid defaults
 echo 'Start squid'
 service squid start
+sleep 1
 echo 'REStart squid'
 service squid restart
